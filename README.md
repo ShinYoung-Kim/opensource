@@ -6,13 +6,13 @@
 <h2>2. 주제 구체화 과정</h2>
 (1) REC 버튼 :red_circle:<br>
 예전에 한 친구는 본인만의 공부 비법으로 핸드폰으로 본인이 공부하는 모습을 동영상으로 찍는 것이라고 말해주었습니다. 그 친구는 동영상을 찍으며 스스로가 유튜브 혹은 방송 출연자라고 생각을 하면 누군가 그 영상을 통해 자신의 모습을 지켜보고 있다는 생각에 집중하지 않을 수 없다고 말하였습니다. 그래서 처음에 이 프로젝트의 내용으로 과제나 공부를 하는 동안 화면 중앙 상단에 빨간색 동그라미와 REC 글씨가 떠 있으면 어떨까 고민을 해보았습니다.<br>
-<img src="https://user-images.githubusercontent.com/83866983/146740643-8ee14afd-02a6-4076-82ca-14de5c3c9843.png" width="100" height="auto"><br>
+<img src="https://user-images.githubusercontent.com/83866983/146740643-8ee14afd-02a6-4076-82ca-14de5c3c9843.png" width="300" height="auto"><br>
 <참고하려던 영상> https://www.youtube.com/watch?v=K1ryq4vG_Pg<br>
 하지만 이를 텀 프로젝트의 주제로 정하기에는 형태가 너무 단순하고, 수업시간에 배운 것을 잘 활용하지 못한다는 생각이 들었습니다.<br>
 ***
 (2) 채팅창<br>
 어느날 여유시간에 게임 유튜버의 영상을 보던 중 하단의 채팅창이 눈에 띄었습니다.<br>
-<img src="https://user-images.githubusercontent.com/83866983/146741335-8870dab2-388d-41da-bf96-e415e73fb8e7.png" width="100" height="auto"> <br>
+<img src="https://user-images.githubusercontent.com/83866983/146741335-8870dab2-388d-41da-bf96-e415e73fb8e7.png" width="300" height="auto"> <br>
 <출처> 우주하마 유튜브(https://www.youtube.com/watch?v=Oes6zwsuQNs)<br>
 가끔 유튜브에서 즐겨보던 Study with Me 영상도 실시간으로 진행되면 우측 댓글란에 실시간 출석이나 반응을 확인할 수 있었던 것처럼 실시간 채팅창을 띄워주는 프로그램이 있다면 원하던 대로 누군가 지켜보는 듯한 느낌에 집중하게 만들기도 하면서 동시에 외롭지 않고 재미있게 과제할 수 있는 프로젝트가 되지 않을까 생각하게 되었습니다.<br>
 <h2>3. 제작 단계</h2>
