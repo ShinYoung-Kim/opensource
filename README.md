@@ -20,15 +20,36 @@ ShinYoung-Kim's Opensource Term-Project : "Study With Me"
 -댓글 불러오기(유튜브 댓글 크롤링)
 검색을 해보니 파이썬에서 크롤링이라는 기능을 이용하면 유튜브 댓글을 불러올 수 있다는 사실을 알게 되었습니다. 더 정확한 문장을 만들어내기 위해선 더 많은 문장이 있으면 좋지 않을까 하는 생각에 제가 봤던 Study with Me 영상 중 가장 댓글이 많은 영상에서 댓글 크롤링을 해보았습니다. 
 <출처> 연고티비(https://www.youtube.com/watch?v=HMyn6eMV0OA)
+<참고한 링크> https://pbj0812.tistory.com/259
 -댓글 다듬기
-막상 엑셀파일로 받아보니 사진과 같이 html 태그를 포함한 형태의 댓글들이 꽤 많이 보였습니다. 모든 댓글이 그런 형태로 모여진 것이 아닌 것으로 보아 댓글 하단에 달린 덧글 형태가 html 태그를 포함한 형태로 모인 것이 아닐까 생각이 들었습니다. 덧글은 댓글에 대해 달린 말이라 영상에 대한 내용과 거리가 멀 수도 있으리라 판단하여 html의 br과 a 태그를 포함하고 있는 항목은 삭제하였습니다. (사실 그 부분만 지워보고 싶었으나 실패하기도 했습니다.)
+막상 엑셀파일로 받아보니 사진과 같이 html 태그를 포함한 형태의 댓글들이 꽤 많이 보였습니다. 모든 댓글이 그런 형태로 모여진 것이 아닌 것으로 보아 댓글 하단에 달린 덧글 형태가 html 태그를 포함한 형태로 모인 것이 아닐까 생각이 들었습니다. 덧글은 댓글에 대해 달린 말이라 영상에 대한 내용과 거리가 멀 수도 있으리라 판단하여 html의 br과 a 태그를 포함하고 있는 항목은 삭제하였습니다. 
 ![image](https://user-images.githubusercontent.com/83866983/146743222-ef514968-d559-4bfe-828b-35c3ee6ae519.png)
-
 -학습 전 한 파일에 모으기
 크롤링으로 모은 댓글들은 댓글의 내용뿐만 아니라 아이디나, 날짜, 좋아요 수까지 모아졌습니다. 그래서 수업시간 배웠던 파일 입출력을 이용하여 엑셀에서 댓글의 항목만 텍스트파일로 만들어주었습니다. 
 (2) 댓글 학습하기
+<참고한 링크 목록>
+https://wikidocs.net/45101
+https://www.youtube.com/watch?v=FQ0vq2CBaL4
+https://www.youtube.com/watch?v=QxgXZNoqQrY
+https://wikidocs.net/85739
+https://omicro03.medium.com/%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%AC-nlp-12%EC%9D%BC%EC%B0%A8-rnn-2-97f1650678b0
+찾아보니 문장을 생성하는 방식에는 마르코프체인과 LSTM/RNN 방식이 있었습니다. 마르코프체인 방식은 확률에 기반하여 문장을 생성해내기 때문에 연관성이 떨어지는 문장이 만들어질 수 있다고 하여 RNN 방식으로 문장을 생성하였습니다. 댓글만 모으고 단어집합 형성->훈련 데이터 구성->예측할 단어에 해당되는 레이블 분리->모델 설계의 과정을 거쳐 문장을 생성해보니 참고하였던 페이지에서 epoch을 200으로 설정해두었는데 학습하는 시간만 해도 2시간 가까이 거리게 되었습니다. 그래서 epoch을 10에서 100까지 세부적으로 조정해보며 관찰해보니 epoch이 50일때부터 100일때까지 loss는 눈에 보이게 감소하지만 accuracy는 큰 변화없이 0.8대를 유지하는 것을 알게 되었습니다. 그래서 epoch을 100으로 수정해주었습니다. 또한, 특정 단어가 있어야지 그 단어 뒤에 올 단어를 추측하며 문장을 생성해내는 방식이다 보니 매번 단어를 집어넣어줘야 하는 문제가 있었습니다. 그래서 크롤링했던 문장들 중 중립적이거나 긍정적인 뉘앙스의 단어이면서 자주 등장하는 20개의 단어를 골라 seed에 저장하고, sentence_generation 함수를 사용할 때 random을 이용하여 랜덤하게 고르도록 하였습니다.
 
 (3) 댓글창 만들고 띄우기
+<참고한 링크 목록>
+https://deep-eye.tistory.com/44
+https://deep-eye.tistory.com/43
+https://mr-doosun.tistory.com/10
+https://bskyvision.com/1209
+https://stackoverflow.com/questions/12328251/how-would-i-draw-a-shadow-under-a-widget-in-qt
+https://doc.qt.io/qt-5/qgraphicsdropshadoweffect.html
+https://stackoverflow.com/questions/52066040/using-qgraphicsdropshadoweffect-with-multiple-widgets
+https://www.geeksforgeeks.org/pyqt5-multi-line-label/
+https://kin.naver.com/qna/detail.naver?d1id=1&dirId=10402&docId=360376594&qb=cHlxdDUgbGFiZWwg67OA6rK9&enc=utf8&section=kin.ext&rank=1&search_sort=0&spq=0
+https://wikidocs.net/38522
+https://stackoverflow.com/questions/57378076/local-variable-count-defined-in-enclosing-scope-on-line-10-referenced-before-a
+https://github.com/kairess/animated-wallpaper-sticker/blob/master/Sticker.py
+
 
 4. 완성본
 <스크린샷> ![image](https://user-images.githubusercontent.com/83866983/146756263-8028e835-8377-4fba-b3a8-eb06636ce103.png)
