@@ -1,9 +1,9 @@
 <h1>ShinYoung-Kim's Opensource Term-Project : "Study With Me"</h1>
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=120&section=header&text=Study%20With%20Me&fontSize=90&animation=twinkling)
-1. "Study With Me"를 만들게 된 계기
+<h3>1. "Study With Me"를 만들게 된 계기</h3>
 시험 기간에 밤을 새며 공부하다 보면 이 새벽까지 깨어있는 사람이 나 혼자인 것 같은 기분에 외로움을 느꼈습니다. 그러던 중 우연히 친구와 인스타 라이브를 통해서 서로 공부하는 모습을 공유해보았는데, 누군가 공부하는 모습이 보여서 혼자만 노력하고 있는 것이 아니라는 생각에 크게 위안을 얻었습니다. 그 이후 저는 종종 Study With Me라는 유튜브 영상들을 틀어놓고 공부하곤 합니다. 이번 오픈소스 과제의 주제를 고민하던 중 이런 Study with Me 영상처럼 혼자 공부할 때 위안이 되어줄 수 있고 공부에 자극이 될 수 있는 프로그램을 만들어 보고 싶다는 생각을 하게 되었습니다. 
-2. 주제 구체화 과정
+<h3>2. 주제 구체화 과정</h3>
 (1) REC 버튼
 예전에 한 친구는 본인만의 공부 비법으로 핸드폰으로 본인이 공부하는 모습을 동영상으로 찍는 것이라고 말해주었습니다. 그 친구는 동영상을 찍으며 스스로가 유튜브 출연자 혹은 방송 출연자라고 생각을 하면 누군가 그 영상을 통해 자신의 모습을 지켜보고 있다는 생각에 집중하지 않을 수 없다고 말하였습니다. 그래서 처음에 이 프로젝트의 내용으로 과제나 공부를 하는 동안 화면 중앙 상단에 빨간색 동그라미와 REC 글씨가 떠 있으면 어떨까 고민을 해보았습니다.
 ![image](https://user-images.githubusercontent.com/83866983/146740643-8ee14afd-02a6-4076-82ca-14de5c3c9843.png)
@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/83866983/146741335-8870dab2-388d-41da-bf96-e415e73fb8e7.png)
 <출처> 우주하마 유튜브(https://www.youtube.com/watch?v=Oes6zwsuQNs)
 가끔 유튜브에서 즐겨보던 Study with Me 영상도 실시간으로 진행되면 우측 댓글란에 실시간 출석이나 반응을 확인할 수 있었던 것처럼 실시간 채팅창을 띄워주어 ~하는 프로그램이 있다면 어떨까 생각하게 되었습니다.
-3. 제작 단계
+<h3>3. 제작 단계</h3>
 (1) 댓글 준비시키기
 기존에 존재하는 영상에서 댓글을 불러와 랜덤하게 뽑아내는 방법과 그런 댓글들로 학습을 시켜 유사한 문장을 만들어내게 하는 방법을 고민해 보았습니다. 전자가 더 쉬운 방법이겠지만 이번 과목에서 배운 내용을 좀 더 사용하고 싶다는 생각에 후자의 방법을 선택하였습니다.
 -댓글 불러오기(유튜브 댓글 크롤링)
@@ -51,11 +51,11 @@ https://stackoverflow.com/questions/57378076/local-variable-count-defined-in-enc
 https://github.com/kairess/animated-wallpaper-sticker/blob/master/Sticker.py
 
 pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 qt designer를 이용하여 ID가 들어갈 자리에 label을 만들어주었습니다. ID와 채팅 글씨에 그림자를 주어 배경이 없어도 화면에서 보이도록 만들었고, 링크를 참고하여 드래그하여 채팅창의 위치를 바꿀 수 있도록 하였습니다. commentChange함수를 만들어 두번재 채팅이 첫번째로, 세번째 채팅은 두번째로 지정해주어 채팅이 위로 올라가는 듯한 효과를 주었고, 세번재 채팅 자리에는 새로운 채팅이 생성되도록 설정하였습니다. 각각의 채팅이 자리를 넘어가도 내용이 짤리지 않고 볼 수 있도록 setWordWrap을 활용하였습니다.
-4. 완성본
+<h3>4. 완성본</h3>
 <스크린샷> ![image](https://user-images.githubusercontent.com/83866983/146756263-8028e835-8377-4fba-b3a8-eb06636ce103.png)
 <영상> https://user-images.githubusercontent.com/83866983/146756697-761744c5-fbf9-4a58-b14e-69b838952ce2.mp4
 
-5. 후에 다시 이 프로그램을 만든다면...(=아쉬운 점)
+<h3>5. 후에 다시 이 프로그램을 만든다면...(=아쉬운 점)</h3>
 (1) 학습 방식의 변화
 생성된 문장이 생각보다 자연스럽지 않았다. 하지만 epoch을 늘리기에는 시간이 너무 오래 걸려서 더 나은 학습 데이터를 선정하든 더 나은 학습 방식을 선정하든 하여 더 정제된 문장을 생성해내면 좋을 것 같다.
 (2) 감성분석
