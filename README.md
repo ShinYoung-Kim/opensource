@@ -50,9 +50,21 @@ https://wikidocs.net/38522
 https://stackoverflow.com/questions/57378076/local-variable-count-defined-in-enclosing-scope-on-line-10-referenced-before-a
 https://github.com/kairess/animated-wallpaper-sticker/blob/master/Sticker.py
 
-
+pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 qt designer를 이용하여 ID가 들어갈 자리에 label을 만들어주었습니다. ID와 채팅 글씨에 그림자를 주어 배경이 없어도 화면에서 보이도록 만들었고, 링크를 참고하여 드래그하여 채팅창의 위치를 바꿀 수 있도록 하였습니다. commentChange함수를 만들어 두번재 채팅이 첫번째로, 세번째 채팅은 두번째로 지정해주어 채팅이 위로 올라가는 듯한 효과를 주었고, 세번재 채팅 자리에는 새로운 채팅이 생성되도록 설정하였습니다. 각각의 채팅이 자리를 넘어가도 내용이 짤리지 않고 볼 수 있도록 setWordWrap을 활용하였습니다.
 4. 완성본
 <스크린샷> ![image](https://user-images.githubusercontent.com/83866983/146756263-8028e835-8377-4fba-b3a8-eb06636ce103.png)
 <영상> https://user-images.githubusercontent.com/83866983/146756697-761744c5-fbf9-4a58-b14e-69b838952ce2.mp4
+
+5. 후에 다시 이 프로그램을 만든다면...(=아쉬운 점)
+(1) 학습 방식의 변화
+생성된 문장이 생각보다 자연스럽지 않았다. 하지만 epoch을 늘리기에는 시간이 너무 오래 걸려서 더 나은 학습 데이터를 선정하든 더 나은 학습 방식을 선정하든 하여 더 정제된 문장을 생성해내면 좋을 것 같다.
+(2) 감성분석
+크롤링으로 수집된 문장들이 생각보다 좋은 문장만 가지고 있는 것이 아니었어서 감성분석을 시도하였습니다. 직접 감성 사전을 만들어 보는 방법도 시도해보고, 인터넷에서 구할 수 있는 감성 사전을 이용하여 감성분석을 시도해보았으나 몇 번의 실패를 겪고 감성분석을 제외하고 프로그램을 만들게 되었습니다. 후에 이 프로그램을 다시 시도해본다면 처음 자료에서 감성분석을 통해 부정으로 분류되는 문장을 제거하고 진행한다면 좀 더 힘이 되고 일관성있는 문장이 만들어지지 않을까 생각합니다.
+<감성분석 및 다른 학습 방식 시도 흔적 스크린샷>
+![image](https://user-images.githubusercontent.com/83866983/146761232-a16ca5ed-0886-4f02-a61e-f7348f3e0784.png)
+![image](https://user-images.githubusercontent.com/83866983/146761315-aff0dac3-082a-43e7-9b3a-e55fc5572b96.png)
+![image](https://user-images.githubusercontent.com/83866983/146761407-790ca2aa-a4ae-4c71-a38d-e0a9107cd7a6.png)
+![image](https://user-images.githubusercontent.com/83866983/146761485-f1a46331-9315-4a4a-a1cc-c45a28242257.png)
+![image](https://user-images.githubusercontent.com/83866983/146761535-ede09111-e8b4-469c-a21d-faade4ad72ee.png)
 
 
