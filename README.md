@@ -1,12 +1,12 @@
 <h1>ShinYoung-Kim's Opensource Term-Project : "Study With Me"</h1>
-
+이 프로젝트를 완성하기까지의 과정 파일들도 포함하여 업로드하였습니다. 최종본만 확인하고 싶다면 together.py를 확인해주세요.
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=120&section=header&text=Study%20With%20Me&fontSize=90&animation=twinkling)
 <h2>1. :memo: "Study With Me"를 만들게 된 계기</h2>
 시험 기간에 밤을 새며 공부하다 보면 이 새벽까지 깨어있는 사람이 나 혼자인 것 같은 기분에 외로움을 느꼈습니다. 그러던 중 우연히 친구와 인스타 라이브를 통해서 서로 공부하는 모습을 공유해보았는데, 누군가 공부하는 모습이 보여서 혼자만 노력하고 있는 것이 아니라는 생각에 크게 위안을 얻었습니다. 그 이후 저는 종종 Study With Me라는 유튜브 영상들을 틀어놓고 공부하곤 합니다. 이번 오픈소스 과제의 주제를 고민하던 중 이런 Study with Me 영상처럼 <mark>혼자 공부할 때 위안이 되어줄 수 있고 공부에 자극이 될 수 있는 프로그램</mark>을 만들어 보고 싶다는 생각을 하게 되었습니다. 
 <h2>2. 주제 구체화 과정</h2>
 (1) REC 버튼 :red_circle:<br>
 예전에 한 친구는 본인만의 공부 비법으로 핸드폰으로 본인이 공부하는 모습을 동영상으로 찍는 것이라고 말해주었습니다. 그 친구는 동영상을 찍으며 스스로가 유튜브 혹은 방송 출연자라고 생각을 하면 누군가 그 영상을 통해 자신의 모습을 지켜보고 있다는 생각에 집중하지 않을 수 없다고 말하였습니다. 그래서 처음에 이 프로젝트의 내용으로 과제나 공부를 하는 동안 화면 중앙 상단에 빨간색 동그라미와 REC 글씨가 떠 있으면 어떨까 고민을 해보았습니다.<br>
-![image](https://user-images.githubusercontent.com/83866983/146740643-8ee14afd-02a6-4076-82ca-14de5c3c9843.png)<br>
+<img src="https://user-images.githubusercontent.com/83866983/146740643-8ee14afd-02a6-4076-82ca-14de5c3c9843.png" width="100" height="auto"><br>
 <참고하려던 영상> https://www.youtube.com/watch?v=K1ryq4vG_Pg<br>
 하지만 이를 텀 프로젝트의 주제로 정하기에는 형태가 너무 단순하고, 수업시간에 배운 것을 잘 활용하지 못한다는 생각이 들었습니다.<br>
 ***
