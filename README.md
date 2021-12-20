@@ -1,4 +1,4 @@
-ShinYoung-Kim's Opensource Term-Project : "Study With Me"
+<h1>ShinYoung-Kim's Opensource Term-Project : "Study With Me"</h1>
 =======================
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=120&section=header&text=Study%20With%20Me&fontSize=90&animation=twinkling)
 1. "Study With Me"를 만들게 된 계기
