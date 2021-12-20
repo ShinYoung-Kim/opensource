@@ -1,7 +1,7 @@
 <h1>ShinYoung-Kim's Opensource Term-Project : "Study With Me"</h1>
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=120&section=header&text=Study%20With%20Me&fontSize=90&animation=twinkling)
-<h3>1. "Study With Me"를 만들게 된 계기</h3>
+<h2>1. "Study With Me"를 만들게 된 계기</h2>
 시험 기간에 밤을 새며 공부하다 보면 이 새벽까지 깨어있는 사람이 나 혼자인 것 같은 기분에 외로움을 느꼈습니다. 그러던 중 우연히 친구와 인스타 라이브를 통해서 서로 공부하는 모습을 공유해보았는데, 누군가 공부하는 모습이 보여서 혼자만 노력하고 있는 것이 아니라는 생각에 크게 위안을 얻었습니다. 그 이후 저는 종종 Study With Me라는 유튜브 영상들을 틀어놓고 공부하곤 합니다. 이번 오픈소스 과제의 주제를 고민하던 중 이런 Study with Me 영상처럼 혼자 공부할 때 위안이 되어줄 수 있고 공부에 자극이 될 수 있는 프로그램을 만들어 보고 싶다는 생각을 하게 되었습니다. 
 <h2>2. 주제 구체화 과정</h2>
 (1) REC 버튼
