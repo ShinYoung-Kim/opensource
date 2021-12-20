@@ -55,7 +55,8 @@ https://github.com/kairess/animated-wallpaper-sticker/blob/master/Sticker.py<br>
 pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 qt designer를 이용하여 ID가 들어갈 자리에 label을 만들어주었습니다. ID와 채팅 글씨에 그림자를 주어 배경이 없어도 화면에서 보이도록 만들었고, 링크를 참고하여 드래그하여 채팅창의 위치를 바꿀 수 있도록 하였습니다. `commentChange함수`를 만들어 두번재 채팅이 첫번째로, 세번째 채팅은 두번째로 지정해주어 채팅이 위로 올라가는 듯한 효과를 주었고, 세번재 채팅 자리에는 새로운 채팅이 생성되도록 설정하였습니다. 각각의 채팅이 자리를 넘어가도 내용이 짤리지 않고 볼 수 있도록 `setWordWrap`을 활용하였습니다.<br>
 <h2>4. 완성본</h2>
 <스크린샷> ![image](https://user-images.githubusercontent.com/83866983/146756263-8028e835-8377-4fba-b3a8-eb06636ce103.png)<br>
-<영상(영상 크기가 초과되어서 gif 파일로 올렸습니다.)> ![MainWindow 2021-12-20 22-57-03](https://user-images.githubusercontent.com/83866983/146818202-83968612-a315-489a-ab43-41d43161f7e6.gif)<br>
+<영상> https://user-images.githubusercontent.com/83866983/146822745-3d6ed7ad-3d91-466e-b1b8-a22b8241d1b3.mp4
+<br>
 <h2>:anguished:후에 다시 이 프로그램을 만든다면...(=아쉬운 점):anguished:</h2>
 (1) 학습 방식의 변화<br>
 생성된 문장이 생각보다 자연스럽지 않았습니다. 하지만 epoch을 늘리기에는 시간이 너무 오래 걸려서 더 나은 학습 데이터를 선정하든 더 나은 학습 방식을 선정하든 하여 더 정제된 문장을 생성해내면 좋을 것 같습니다.<br>
