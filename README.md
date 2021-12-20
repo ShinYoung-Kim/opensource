@@ -12,7 +12,7 @@
 ***
 (2) 채팅창<br>
 어느날 여유시간에 게임 유튜버의 영상을 보던 중 하단의 채팅창이 눈에 띄었습니다.<br>
-![image](https://user-images.githubusercontent.com/83866983/146741335-8870dab2-388d-41da-bf96-e415e73fb8e7.png)<br>
+<img src="https://user-images.githubusercontent.com/83866983/146741335-8870dab2-388d-41da-bf96-e415e73fb8e7.png" width="100" height="auto"> <br>
 <출처> 우주하마 유튜브(https://www.youtube.com/watch?v=Oes6zwsuQNs)<br>
 가끔 유튜브에서 즐겨보던 Study with Me 영상도 실시간으로 진행되면 우측 댓글란에 실시간 출석이나 반응을 확인할 수 있었던 것처럼 실시간 채팅창을 띄워주는 프로그램이 있다면 원하던 대로 누군가 지켜보는 듯한 느낌에 집중하게 만들기도 하면서 동시에 외롭지 않고 재미있게 과제할 수 있는 프로젝트가 되지 않을까 생각하게 되었습니다.<br>
 <h2>3. 제작 단계</h2>
@@ -24,7 +24,7 @@
 <참고한 링크> https://pbj0812.tistory.com/259<br>
 **댓글 다듬기** <br>
 막상 엑셀파일로 받아보니 사진과 같이 html 태그를 포함한 형태의 댓글들이 꽤 많이 보였습니다. 모든 댓글이 그런 형태로 모여진 것이 아닌 것으로 보아 댓글 하단에 달린 덧글 형태가 html 태그를 포함한 형태로 모인 것이 아닐까 생각이 들었습니다. 덧글은 댓글에 대해 달린 말이라 영상에 대한 내용과 거리가 멀 수도 있으리라 판단하여 html의 br과 a 태그를 포함하고 있는 항목은 삭제하였습니다. <br>
-![image](https://user-images.githubusercontent.com/83866983/146743222-ef514968-d559-4bfe-828b-35c3ee6ae519.png)<br>
+<img src="https://user-images.githubusercontent.com/83866983/146743222-ef514968-d559-4bfe-828b-35c3ee6ae519.png"><br>
 **학습 전 한 파일에 모으기** <br>
 크롤링으로 모은 댓글들은 댓글의 내용뿐만 아니라 아이디나, 날짜, 좋아요 수까지 모아졌습니다. 그래서 수업시간 배웠던 파일 입출력을 이용하여 엑셀에서 댓글의 항목만 텍스트파일로 만들어주었습니다.<br> 
 ***
@@ -54,7 +54,7 @@ https://github.com/kairess/animated-wallpaper-sticker/blob/master/Sticker.py<br>
 
 pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 qt designer를 이용하여 ID가 들어갈 자리에 label을 만들어주었습니다. ID와 채팅 글씨에 그림자를 주어 배경이 없어도 화면에서 보이도록 만들었고, 링크를 참고하여 드래그하여 채팅창의 위치를 바꿀 수 있도록 하였습니다. `commentChange함수`를 만들어 두번재 채팅이 첫번째로, 세번째 채팅은 두번째로 지정해주어 채팅이 위로 올라가는 듯한 효과를 주었고, 세번재 채팅 자리에는 새로운 채팅이 생성되도록 설정하였습니다. 각각의 채팅이 자리를 넘어가도 내용이 짤리지 않고 볼 수 있도록 `setWordWrap`을 활용하였습니다.<br>
 <h2>4. 완성본</h2>
-<스크린샷> ![image](https://user-images.githubusercontent.com/83866983/146756263-8028e835-8377-4fba-b3a8-eb06636ce103.png)<br>
+<스크린샷> <img src="https://user-images.githubusercontent.com/83866983/146756263-8028e835-8377-4fba-b3a8-eb06636ce103.png"><br>
 <영상> https://user-images.githubusercontent.com/83866983/146822745-3d6ed7ad-3d91-466e-b1b8-a22b8241d1b3.mp4
 <br>
 <h2>:anguished:후에 다시 이 프로그램을 만든다면...(=아쉬운 점):anguished:</h2>
@@ -67,8 +67,8 @@ pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 q
 +)고민<br>
 이 py 파일을 디버깅할 때 마다 새로 학습을 시작하던데 다시 실행하면 기존에 학습한 내용은 유지하고, 채팅창을 띄우는 부분만 다시 실행할 수는 없을까?<br>
 <감성분석 및 다른 학습 방식 시도 흔적 스크린샷><br>
-![image](https://user-images.githubusercontent.com/83866983/146761232-a16ca5ed-0886-4f02-a61e-f7348f3e0784.png)<br>
-![image](https://user-images.githubusercontent.com/83866983/146761315-aff0dac3-082a-43e7-9b3a-e55fc5572b96.png)<br>
-![image](https://user-images.githubusercontent.com/83866983/146761407-790ca2aa-a4ae-4c71-a38d-e0a9107cd7a6.png)<br>
-![image](https://user-images.githubusercontent.com/83866983/146761485-f1a46331-9315-4a4a-a1cc-c45a28242257.png)<br>
-![image](https://user-images.githubusercontent.com/83866983/146761535-ede09111-e8b4-469c-a21d-faade4ad72ee.png)<br>
+<img src="https://user-images.githubusercontent.com/83866983/146761232-a16ca5ed-0886-4f02-a61e-f7348f3e0784.png><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761315-aff0dac3-082a-43e7-9b3a-e55fc5572b96.png><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761407-790ca2aa-a4ae-4c71-a38d-e0a9107cd7a6.png><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761485-f1a46331-9315-4a4a-a1cc-c45a28242257.png><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761535-ede09111-e8b4-469c-a21d-faade4ad72ee.png><br>
