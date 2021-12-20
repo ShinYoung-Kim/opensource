@@ -67,8 +67,8 @@ pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 q
 +)고민<br>
 이 py 파일을 디버깅할 때 마다 새로 학습을 시작하던데 다시 실행하면 기존에 학습한 내용은 유지하고, 채팅창을 띄우는 부분만 다시 실행할 수는 없을까?<br>
 <감성분석 및 다른 학습 방식 시도 흔적 스크린샷><br>
-<img src="https://user-images.githubusercontent.com/83866983/146761232-a16ca5ed-0886-4f02-a61e-f7348f3e0784.png width="100" height="auto"><br>
-<img src="https://user-images.githubusercontent.com/83866983/146761315-aff0dac3-082a-43e7-9b3a-e55fc5572b96.png width="100" height="auto"><br>
-<img src="https://user-images.githubusercontent.com/83866983/146761407-790ca2aa-a4ae-4c71-a38d-e0a9107cd7a6.png width="100" height="auto"><br>
-<img src="https://user-images.githubusercontent.com/83866983/146761485-f1a46331-9315-4a4a-a1cc-c45a28242257.png width="100" height="auto"><br>
-<img src="https://user-images.githubusercontent.com/83866983/146761535-ede09111-e8b4-469c-a21d-faade4ad72ee.png width="100" height="auto"><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761232-a16ca5ed-0886-4f02-a61e-f7348f3e0784.png" width="100" height="auto"><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761315-aff0dac3-082a-43e7-9b3a-e55fc5572b96.png" width="100" height="auto"><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761407-790ca2aa-a4ae-4c71-a38d-e0a9107cd7a6.png" width="100" height="auto"><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761485-f1a46331-9315-4a4a-a1cc-c45a28242257.png" width="100" height="auto"><br>
+<img src="https://user-images.githubusercontent.com/83866983/146761535-ede09111-e8b4-469c-a21d-faade4ad72ee.png" width="100" height="auto"><br>
