@@ -74,7 +74,9 @@ pyqt5를 이용하여 채팅창을 만들고 화면에 띄웠습니다. 먼저 q
 <img src="https://user-images.githubusercontent.com/83866983/146761407-790ca2aa-a4ae-4c71-a38d-e0a9107cd7a6.png" width="300" height="auto" float="left">
 <img src="https://user-images.githubusercontent.com/83866983/146761485-f1a46331-9315-4a4a-a1cc-c45a28242257.png" width="300" height="auto" float="left">
 <img src="https://user-images.githubusercontent.com/83866983/146761535-ede09111-e8b4-469c-a21d-faade4ad72ee.png" width="300" height="auto" float="left">
-<h2>라이센스 표기</h2>
-google-api-client : https://github.com/googleapis/google-api-python-client/blob/main/LICENSE
-numpy : https://numpy.org/doc/stable/license.html
-pandas : https://github.com/pandas-dev/pandas/blob/master/LICENSE
+<h2>사용한 모듈 라이센스</h2>
+google-api-client : https://github.com/googleapis/google-api-python-client/blob/main/LICENSE <br>
+numpy : https://numpy.org/doc/stable/license.html <br>
+pandas : https://github.com/pandas-dev/pandas/blob/master/LICENSE <br>
+tensorflow : https://github.com/tensorflow/tensorflow/blob/master/LICENSE <br>
+pyqt5 : https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html#license <br>
